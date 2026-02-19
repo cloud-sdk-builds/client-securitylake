@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-securitylake`](https://www.npmjs.com/package/@aws-sdk/client-securitylake/v/3.919.0).
+[`@aws-sdk/client-securitylake`](https://www.npmjs.com/package/@aws-sdk/client-securitylake/v/3.920.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-securitylake@3.919.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-securitylake@3.920.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-a7uFtoXvtLyMmSmhNTJsTpP8LVSVg6WLc1WzjC91dgg5LkFli8xu4LdEf8G8Lucg
+sha384-b/n/7Da3v9PIXJekt7GB0qT19CxkDbDiRbk5xFLtqM0AkTLLG3NAM24kGecGeGwX
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-securitylake": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-securitylake@3.919.0/index.min.mjs"
+            "@aws-sdk/client-securitylake": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-securitylake@3.920.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-securitylake@3.919.0/index.min.mjs": "sha384-a7uFtoXvtLyMmSmhNTJsTpP8LVSVg6WLc1WzjC91dgg5LkFli8xu4LdEf8G8Lucg"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-securitylake@3.920.0/index.min.mjs": "sha384-b/n/7Da3v9PIXJekt7GB0qT19CxkDbDiRbk5xFLtqM0AkTLLG3NAM24kGecGeGwX"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-securitylake": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-securitylake@3.919.0/index.min.mjs"
+                        "@aws-sdk/client-securitylake": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-securitylake@3.920.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-securitylake@3.919.0/index.min.mjs": "sha384-a7uFtoXvtLyMmSmhNTJsTpP8LVSVg6WLc1WzjC91dgg5LkFli8xu4LdEf8G8Lucg"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-securitylake@3.920.0/index.min.mjs": "sha384-b/n/7Da3v9PIXJekt7GB0qT19CxkDbDiRbk5xFLtqM0AkTLLG3NAM24kGecGeGwX"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.919.0`)
+* Always pin to a specific version (`@3.920.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-securitylake/blob/refs/tags/3.919.0/LICENSE
+https://github.com/cloud-sdk-builds/client-securitylake/blob/refs/tags/3.920.0/LICENSE
 ```
 
 ---
